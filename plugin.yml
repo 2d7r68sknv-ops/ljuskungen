@@ -1,0 +1,13 @@
+name: TorchGlow
+version: 0.1.0
+main: se.torchglow.TorchGlow
+api-version: '26.3'
+description: Experimental extra lighting for ordinary torches.
+commands:
+  torchglow:
+    description: Manage extra torch lighting
+    usage: /torchglow <scan|status|clear>
+    permission: torchglow.admin
+permissions:
+  torchglow.admin:
+    default: op

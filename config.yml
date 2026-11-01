@@ -1,0 +1,6 @@
+# Maximum radius for supplemental light placement, in blocks (max 30).
+radius: 30
+# Distance between candidate supplemental light positions.
+spacing: 12
+# Safety cap: too many light updates can lag servers.
+max-lights-per-torch: 75
